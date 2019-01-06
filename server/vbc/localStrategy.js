@@ -1,5 +1,5 @@
 const User = require('../database/models/user')
-const LocalStrategy = require('passport-local').Strategy
+const LocalStrategy = require('vbc-local').Strategy
 
 const strategy = new LocalStrategy(
 	{
